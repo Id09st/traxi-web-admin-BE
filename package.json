@@ -1,0 +1,36 @@
+{
+  "name": "traxi-product-admin-be",
+  "version": "1.0.0",
+  "description": "BE - Traxi - Website",
+  "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.4.1",
+    "express": "^4.17.1",
+    "fast-csv": "^5.0.0",
+    "joi": "^17.12.0",
+    "jsonwebtoken": "^9.0.2",
+    "msnodesqlv8": "^4.1.2",
+    "mssql": "^10.0.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "swagger-jsdoc": "^6.0.2",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7"
+  },
+}
