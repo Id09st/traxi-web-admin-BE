@@ -1,8 +1,8 @@
-GET: http://localhost:5000/posts 
+GET: https://traxi-web-admin-be.vercel.app/posts 
 
 ###
 
-POST http://localhost:5000/login 
+POST https://traxi-web-admin-be.vercel.app/login 
 Content-Type: application/json 
 
 {
